@@ -1,14 +1,11 @@
-
-import './App.css'
-
 function Form() {
   return (
     <form>
       <label htmlFor="name">Name</label>
       <input type="text" id="name" />
 
-      <label htmlFor="email">Email</label>
-      <input type="email" id="email" />
+      <label htmlFor="Dog Breed">Dog Breed</label>
+      <input type="text" id="dog breed" />
 
       <button type="submit">Submit</button>
     </form>
